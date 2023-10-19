@@ -1,0 +1,189 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('ansiedad.jpg'); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la URL de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: rgb(0, 0, 0); /* Cambiar el color del texto para que sea legible en la imagen de fondo */
+    text-align: center; /* Centra todo el texto en la página */
+}
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(126, 136, 127, 0.8); /* Agrega un fondo semi-transparente al contenido para mejorar la legibilidad */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(51, 51, 51, 0.7); /* Agrega un fondo semi-transparente al menú de navegación */
+    text-align: center;
+}
+
+/* ... Estilos de navegación y otros elementos ... */
+
+/* Estilos específicos */
+/* Estilos generales y anteriores */
+
+/* Estilos específicos */
+.article {
+    float: left;
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+}
+
+.article h2 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.content-box {
+    background-color: rgba(51, 125, 209, 0.8); /* Agrega un fondo semi-transparente a los cuadros de contenido */
+    padding: 40px;
+    margin: 40x 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-box p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.image-container {
+    float: right;
+    width: 40%; /* Ajusta el ancho de la imagen */
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+/* Estilos para el formulario */
+#contact-form {
+    background-color: rgba(206, 202, 182, 0.699);
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="email"],
+.form-group input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group button[type="submit"] {
+    background-color: #2e89dd;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;   
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+    .article {
+        width: 100%;
+    }
+
+    /* ... Estilos para dispositivos móviles ... */
+}
+
+
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#content {
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.8); /* Agrega un fondo semi-transparente al contenido */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.article {
+    float: left;
+    width: 70%;
+}
+
+article h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.article p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+iframe {
+    width: 100%;
+    height: 400px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(51, 51, 51, 0.7); /* Agrega un fondo semi-transparente al pie de página */
+    color: #000000;
+}
+/* Estilos generales y anteriores */
+
+/* Estilos específicos */
+.intro-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.large-text {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.article p {
+    font-size: 24px;
+}
+
